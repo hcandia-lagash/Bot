@@ -28,8 +28,8 @@ server.use(function (request, response, next) {
 
 // Setup bot
 const connector = new builder.ChatConnector({
-    appId: process.env.MICROSOFT_APP_ID,
-    appPassword: process.env.MICROSOFT_APP_PASSWORD
+    appId: '0fd45fb2-4d78-447e-ab2d-5fbba9b91c1f',
+    appPassword: '9eDK5a4yHpOsgghCws1hP6c'
 });
 
 const bot = new builder.UniversalBot(connector);
